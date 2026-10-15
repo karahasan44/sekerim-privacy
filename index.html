@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Şekerim Gizlilik Politikası</title>
+<style>
+  :root{
+    --bg:#F6F7F9; --surface:#FFFFFF; --sunken:#EEF1F5;
+    --ink:#12161C; --ink-2:#3C4551; --muted:#647082;
+    --line:#DFE4EA; --line-strong:#C7CFD9; --accent:#00696F;
+    --good:#1F7A4D; --good-bg:#E4F3EA;
+    --warn:#8A4B00; --warn-bg:#FFF3E0;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#0B0F15; --surface:#121822; --sunken:#0F151E;
+      --ink:#E9EDF3; --ink-2:#C2CBD8; --muted:#8996A8;
+      --line:#232C38; --line-strong:#30394A; --accent:#5ED6DE;
+      --good:#7FCB9F; --good-bg:#12241A;
+      --warn:#FFB867; --warn-bg:#2A1C0B;
+    }
+  }
+  *{box-sizing:border-box}
+  html{color-scheme:light dark}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:56px 24px 96px}
+  h1{font-size:clamp(26px,4vw,34px);line-height:1.15;letter-spacing:-.01em;margin:0 0 8px}
+  h2{font-size:19px;margin:44px 0 12px;letter-spacing:-.005em}
+  p{margin:0 0 14px;color:var(--ink-2)}
+  .updated{color:var(--muted);font-size:14px;margin-bottom:28px}
+  .box{border-radius:12px;padding:18px 20px;margin:24px 0 8px;font-size:15px;line-height:1.55}
+  .summary{background:var(--good-bg);border:1px solid var(--good);color:var(--good);font-weight:600}
+  .summary span{display:block;font-weight:400;color:var(--ink-2);margin-top:6px}
+  .medical{background:var(--warn-bg);border:1px solid var(--warn);color:var(--ink-2)}
+  .medical strong{color:var(--warn)}
+  ul{margin:0 0 14px;padding-left:22px;color:var(--ink-2)}
+  li{margin-bottom:6px}
+  table{width:100%;border-collapse:collapse;margin:12px 0 20px;font-size:14.5px}
+  th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  thead th{color:var(--muted);font-weight:600;font-size:12.5px;text-transform:uppercase;letter-spacing:.04em;border-bottom:1px solid var(--line-strong)}
+  code{background:var(--sunken);border:1px solid var(--line);border-radius:4px;padding:1px 6px;font-size:.92em;word-break:break-word}
+  a{color:var(--accent)}
+  footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:13.5px}
+  .en{color:var(--muted);font-size:13.5px;border-left:3px solid var(--line-strong);padding-left:14px;margin:0 0 32px}
+  @media (max-width:520px){ .wrap{padding:40px 16px 72px} th,td{padding:8px 6px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Şekerim Gizlilik Politikası</h1>
+  <p class="updated">Son güncelleme: 15 Ekim 2026</p>
+
+  <p class="en">Şekerim (Glucose Log in English) keeps your blood sugar readings, medication
+  alarms and settings only on your device. The app has no internet permission, sends no data
+  anywhere and contains no ads, analytics or tracking. It is not a medical device.</p>
+
+  <div class="box summary">
+    Özetle: Şekerim internete hiç bağlanmaz. Girdiğiniz şeker ölçümleri, alarmlar ve ayarlar
+    yalnızca telefonunuzda durur; bize ya da üçüncü bir tarafa gönderilmez.
+    <span>Uygulama <code>INTERNET</code> iznini istemez. Android, bu izni olmayan bir
+    uygulamanın ağ üzerinden veri göndermesine izin vermez.</span>
+  </div>
+
+  <div class="box medical">
+    <strong>Şekerim tıbbi bir cihaz değildir.</strong> Teşhis koymak, tedavi belirlemek ya da
+    ilaç ve insülin dozuna karar vermek için kullanılamaz. Ölçüm değerlerinizi ve ilaç
+    planınızı doktorunuzla değerlendirin. Hatırlatmalar telefonun ayarları, pil tasarrufu ya
+    da kapalı izinler yüzünden gecikebilir veya çalmayabilir.
+  </div>
+
+  <h2>Uygulamada saklanan bilgiler</h2>
+  <p>Şekerim'in sunucusu, kullanıcı hesabı ya da bulut altyapısı yoktur. Uygulamaya
+  girdiğiniz bilgiler telefonunuzda, uygulamanın kendi özel deposunda saklanır:</p>
+  <ul>
+    <li>Şeker ölçümleri: tarih, saat, açlık ya da tokluk bilgisi, mg/dL değeri ve
+    isteğe bağlı not.</li>
+    <li>Alarmlar: hatırlatma türü (şeker ilacı ya da insülin), çalma zamanı, tekrar düzeni,
+    uyarı şekli ve seçtiğiniz alarm sesi.</li>
+    <li>Ayarlar: dil, tema, uyarı tercihleri ve normal kabul ettiğiniz şeker aralıkları.</li>
+  </ul>
+  <p>Ölçümler sağlık verisidir. Bu veriler bizim elimize hiçbir zaman geçmez; onları
+  yalnızca siz görebilir, değiştirebilir ve silebilirsiniz.</p>
+
+  <h2>İzinler ve ne için kullanılıyorlar</h2>
+  <p>Aşağıdaki izinlerin hepsi hatırlatmaların zamanında çalması ve dışa aktarma içindir.
+  Hiçbiri kişisel veri toplamaz.</p>
+  <table>
+    <thead><tr><th>İzin</th><th>Amacı</th></tr></thead>
+    <tbody>
+      <tr><td><code>POST_NOTIFICATIONS</code></td><td>Hatırlatma bildirimini göstermek</td></tr>
+      <tr><td><code>SCHEDULE_EXACT_ALARM</code></td><td>İlaç ve insülin alarmının tam dakikasında çalması (Ayarlar'da "Alarmlar ve hatırlatıcılar" olarak görünür)</td></tr>
+      <tr><td><code>RECEIVE_BOOT_COMPLETED</code></td><td>Telefon yeniden başladığında alarmları yeniden kurmak</td></tr>
+      <tr><td><code>WAKE_LOCK</code></td><td>Uyarı sürerken telefonun uykuya geçmemesi</td></tr>
+      <tr><td><code>VIBRATE</code></td><td>Uyarı sırasında titreşim</td></tr>
+      <tr><td><code>FOREGROUND_SERVICE</code>, <code>FOREGROUND_SERVICE_MEDIA_PLAYBACK</code></td><td>Alarm sesinin ve sesli mesajın, uygulama arka plandayken de kesilmeden çalması</td></tr>
+      <tr><td><code>USE_FULL_SCREEN_INTENT</code></td><td>Uyarının kilit ekranında tam ekran açılması</td></tr>
+      <tr><td><code>SYSTEM_ALERT_WINDOW</code></td><td>Telefon kilitsizken ekran kapalıysa da uyarı ekranının öne gelebilmesi (isteğe bağlı)</td></tr>
+      <tr><td><code>WRITE_EXTERNAL_STORAGE</code></td><td>Yalnızca Android 9 ve öncesinde, Excel dosyasını İndirilenler klasörüne kaydetmek</td></tr>
+    </tbody>
+  </table>
+  <p>Uygulama konum, kamera, mikrofon, kişiler, SMS, arama geçmişi ya da fotoğraflarınıza
+  erişim istemez.</p>
+
+  <h2>Sesli uyarılar</h2>
+  <p>Alarm mesajları telefonunuzda kurulu metinden sese (TTS) motoruyla okunur. Bu
+  Android'in bir sistem servisidir; genellikle Google Konuşma Hizmetleri ya da telefon
+  üreticisinin motorudur. Okunan metin yalnızca "Şeker ilaçlarınızı içme zamanı" gibi
+  sabit hatırlatma cümleleridir, ölçüm değerleriniz okunmaz. Motorun kendi veri işleme
+  biçimi, onu sağlayan şirketin gizlilik politikasına tabidir.</p>
+
+  <h2>Excel'e dışa aktarma</h2>
+  <p>Ayarlar'daki "Dışa aktar" ile seçtiğiniz tarih aralığındaki ölçümler bir Excel dosyası
+  olarak telefonunuzun İndirilenler klasörüne kaydedilir. Bu yalnızca siz düğmeye
+  bastığınızda olur. Dosya kaydedildikten sonra telefonunuzdaki diğer uygulamalar
+  tarafından açılabilir; onu kimlerle paylaşacağınıza siz karar verirsiniz. Şekerim dosyayı
+  hiçbir yere göndermez.</p>
+
+  <h2>Android'in otomatik yedeklemesi</h2>
+  <p>Android, uyumlu telefonlarda uygulama verilerini kendi Google hesabınıza yedekleyebilir.
+  Şekerim bu sistem özelliğini kapatmaz; ölçümleriniz ve ayarlarınız, Android ayarlarınıza
+  bağlı olarak Google hesabınızın yedeğine girebilir. Bu yedek Google'ın altyapısında,
+  hesabınıza bağlı olarak tutulur; Şekerim'in ya da bizim bu verilere erişimimiz yoktur.
+  Yedeklemeyi telefonunuzun <em>Ayarlar → Google → Yedekleme</em> bölümünden
+  yönetebilirsiniz (menü adları telefona göre değişebilir).</p>
+
+  <h2>Üçüncü taraflarla paylaşım</h2>
+  <p>Hiç yok. Uygulamada reklam, analitik (ör. Google Analytics, Firebase), çökme raporlama
+  ya da başka bir takip kütüphanesi bulunmaz. Toplanan bir veri olmadığı için satılan,
+  kiralanan ya da paylaşılan bir veri de yoktur.</p>
+
+  <h2>Çocukların gizliliği</h2>
+  <p>Şekerim kimseden veri toplamaz ve belirli bir yaş grubuna yönelik pazarlanmaz.</p>
+
+  <h2>Verilerinizi silmek</h2>
+  <ul>
+    <li>Tek bir ölçümü ya da alarmı listedeki silme düğmesiyle silebilirsiniz.</li>
+    <li>Ayarlar'daki "Eski değerleri sil" seçtiğiniz tarihten önceki tüm ölçümleri siler.</li>
+    <li>Uygulamayı telefonunuzdan kaldırmak tüm verilerini siler. Google hesabınızdaki
+    otomatik yedeği Google ayarlarınızdan silebilirsiniz.</li>
+  </ul>
+  <p>Silinen veriler geri getirilemez.</p>
+
+  <h2>Bu politikadaki değişiklikler</h2>
+  <p>Uygulamanın veri davranışı değişirse bu sayfa güncellenir ve en üstteki tarih
+  yenilenir. Ağ bağlantısı ya da üçüncü taraf bir hizmet eklenmesi gibi önemli bir
+  değişiklik sürüm notlarında da belirtilir.</p>
+
+  <h2>İletişim</h2>
+  <p>Sorularınız için: <a href="mailto:karahasan44@gmail.com">karahasan44@gmail.com</a></p>
+
+  <footer>Şekerim · Android uygulaması · <a href="mailto:karahasan44@gmail.com">karahasan44@gmail.com</a></footer>
+
+</div>
+</body>
+</html>
