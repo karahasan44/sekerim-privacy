@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Glucose Log (Şekerim) Privacy Policy</title>
+<link rel="alternate" hreflang="tr" href="https://karahasan44.github.io/sekerim-privacy/">
+<style>
+  :root{
+    --bg:#F6F7F9; --surface:#FFFFFF; --sunken:#EEF1F5;
+    --ink:#12161C; --ink-2:#3C4551; --muted:#647082;
+    --line:#DFE4EA; --line-strong:#C7CFD9; --accent:#00696F;
+    --good:#1F7A4D; --good-bg:#E4F3EA;
+    --warn:#8A4B00; --warn-bg:#FFF3E0;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --bg:#0B0F15; --surface:#121822; --sunken:#0F151E;
+      --ink:#E9EDF3; --ink-2:#C2CBD8; --muted:#8996A8;
+      --line:#232C38; --line-strong:#30394A; --accent:#5ED6DE;
+      --good:#7FCB9F; --good-bg:#12241A;
+      --warn:#FFB867; --warn-bg:#2A1C0B;
+    }
+  }
+  *{box-sizing:border-box}
+  html{color-scheme:light dark}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:760px;margin:0 auto;padding:56px 24px 96px}
+  h1{font-size:clamp(26px,4vw,34px);line-height:1.15;letter-spacing:-.01em;margin:0 0 8px}
+  h2{font-size:19px;margin:44px 0 12px;letter-spacing:-.005em}
+  p{margin:0 0 14px;color:var(--ink-2)}
+  .updated{color:var(--muted);font-size:14px;margin-bottom:28px}
+  .box{border-radius:12px;padding:18px 20px;margin:24px 0 8px;font-size:15px;line-height:1.55}
+  .summary{background:var(--good-bg);border:1px solid var(--good);color:var(--good);font-weight:600}
+  .summary span{display:block;font-weight:400;color:var(--ink-2);margin-top:6px}
+  .medical{background:var(--warn-bg);border:1px solid var(--warn);color:var(--ink-2)}
+  .medical strong{color:var(--warn)}
+  ul{margin:0 0 14px;padding-left:22px;color:var(--ink-2)}
+  li{margin-bottom:6px}
+  table{width:100%;border-collapse:collapse;margin:12px 0 20px;font-size:14.5px}
+  th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  thead th{color:var(--muted);font-weight:600;font-size:12.5px;text-transform:uppercase;letter-spacing:.04em;border-bottom:1px solid var(--line-strong)}
+  code{background:var(--sunken);border:1px solid var(--line);border-radius:4px;padding:1px 6px;font-size:.92em;word-break:break-word}
+  a{color:var(--accent)}
+  footer{margin-top:56px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:13.5px}
+  .en{color:var(--muted);font-size:13.5px;border-left:3px solid var(--line-strong);padding-left:14px;margin:0 0 32px}
+  @media (max-width:520px){ .wrap{padding:40px 16px 72px} th,td{padding:8px 6px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>Glucose Log (Şekerim) Privacy Policy</h1>
+  <p class="updated">Last updated: 15 October 2026</p>
+
+  <p class="en"><a href="../" hreflang="tr" lang="tr">Türkçe sürüm</a> · English</p>
+
+  <div class="box summary">
+    In short: Glucose Log never connects to the internet. The blood sugar readings, alarms and
+    settings you enter stay on your phone and are never sent to us or to any third party.
+    <span>The app does not request the <code>INTERNET</code> permission. Android does not
+    allow an app without this permission to send data over the network.</span>
+  </div>
+
+  <div class="box medical">
+    <strong>Glucose Log is not a medical device.</strong> It must not be used to diagnose, to
+    decide on treatment or to choose medication or insulin doses. Review your readings and your
+    medication plan with your doctor. Reminders can be late or fail to go off because of phone
+    settings, battery saving or missing permissions.
+  </div>
+
+  <h2>Information stored by the app</h2>
+  <p>Glucose Log has no server, user account or cloud service. What you enter is stored on
+  your phone, in the app's private storage:</p>
+  <ul>
+    <li>Blood sugar readings: date, time, fasting or after-meal type, value in mg/dL and an
+    optional note.</li>
+    <li>Alarms: reminder type (diabetes medication or insulin), alarm time, repeat pattern,
+    alert type and the alarm sound you chose.</li>
+    <li>Settings: language, theme, alert preferences and the blood sugar ranges you consider
+    normal.</li>
+  </ul>
+  <p>Readings are health data. They never reach us; only you can see, change or delete
+  them.</p>
+
+  <h2>Permissions and what they are used for</h2>
+  <p>All of the permissions below are used to make reminders go off on time and to export
+  readings. None of them collects personal data.</p>
+  <table>
+    <thead><tr><th>Permission</th><th>Purpose</th></tr></thead>
+    <tbody>
+      <tr><td><code>POST_NOTIFICATIONS</code></td><td>Showing the reminder notification</td></tr>
+      <tr><td><code>SCHEDULE_EXACT_ALARM</code></td><td>Making medication and insulin alarms go off on the exact minute (shown in Settings as "Alarms &amp; reminders")</td></tr>
+      <tr><td><code>RECEIVE_BOOT_COMPLETED</code></td><td>Setting alarms again after the phone restarts</td></tr>
+      <tr><td><code>WAKE_LOCK</code></td><td>Keeping the phone awake while an alert is running</td></tr>
+      <tr><td><code>VIBRATE</code></td><td>Vibrating during an alert</td></tr>
+      <tr><td><code>FOREGROUND_SERVICE</code>, <code>FOREGROUND_SERVICE_MEDIA_PLAYBACK</code></td><td>Playing the alarm sound and the spoken message without interruption while the app is in the background</td></tr>
+      <tr><td><code>USE_FULL_SCREEN_INTENT</code></td><td>Opening the alert full screen on the lock screen</td></tr>
+      <tr><td><code>SYSTEM_ALERT_WINDOW</code></td><td>Bringing the alert screen to the front when the screen is off and the phone is not locked (optional)</td></tr>
+      <tr><td><code>WRITE_EXTERNAL_STORAGE</code></td><td>Only on Android 9 and earlier, saving the Excel file to the Downloads folder</td></tr>
+    </tbody>
+  </table>
+  <p>The app does not ask for access to your location, camera, microphone, contacts, SMS,
+  call history or photos.</p>
+
+  <h2>Voice alerts</h2>
+  <p>Alarm messages are read aloud by the text-to-speech (TTS) engine installed on your phone.
+  This is an Android system service, usually Google's Speech Services or the phone maker's
+  own engine. The only text read aloud is a fixed reminder sentence such as "Time to take your
+  diabetes medication"; your readings are never read out. How the engine processes data is
+  covered by the privacy policy of the company that provides it.</p>
+
+  <h2>Exporting to Excel</h2>
+  <p>"Export" in Settings saves the readings from the date range you choose as an Excel file in
+  your phone's Downloads folder. This only happens when you tap the button. Once saved, the
+  file can be opened by other apps on your phone, and you decide who you share it with.
+  Glucose Log does not send the file anywhere.</p>
+
+  <h2>Android automatic backup</h2>
+  <p>On supported phones, Android can back up app data to your own Google account. Glucose Log
+  does not turn this system feature off, so your readings and settings may be included in your
+  Google account backup, depending on your Android settings. This backup is kept on Google's
+  infrastructure and tied to your account; neither Glucose Log nor we have access to it. You can
+  manage backups under <em>Settings → Google → Backup</em> on your phone (menu names vary by
+  device).</p>
+
+  <h2>Sharing with third parties</h2>
+  <p>None. The app contains no ads, no analytics (such as Google Analytics or Firebase), no
+  crash reporting and no other tracking library. Since no data is collected, no data is sold,
+  rented or shared.</p>
+
+  <h2>Children's privacy</h2>
+  <p>Glucose Log collects no data from anyone and is not marketed to any particular age
+  group.</p>
+
+  <h2>Deleting your data</h2>
+  <ul>
+    <li>You can delete a single reading or alarm with its delete button in the list.</li>
+    <li>"Delete old readings" in Settings deletes every reading before the date you
+    choose.</li>
+    <li>Uninstalling the app deletes all of its data. You can delete the automatic backup in
+    your Google account from your Google settings.</li>
+  </ul>
+  <p>Deleted data cannot be recovered.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>If the way the app handles data changes, this page will be updated and the date at the
+  top will change. A significant change, such as adding a network connection or a third-party
+  service, will also be mentioned in the release notes.</p>
+
+  <h2>Contact</h2>
+  <p>For questions: <a href="mailto:karahasan44@gmail.com">karahasan44@gmail.com</a></p>
+
+  <footer>Glucose Log (Şekerim) · Android app · <a href="mailto:karahasan44@gmail.com">karahasan44@gmail.com</a></footer>
+
+</div>
+</body>
+</html>
